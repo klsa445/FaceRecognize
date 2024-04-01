@@ -1,20 +1,28 @@
-Èí¼ş¿ª·¢»·¾³:python3.8 + pycharm
-»·¾³ÅäÖÃ²½Öè£º
-¡¾µÚÒ»²½£º°²×°python3.8¡¿
-·½·¨Ò»£ºÖ±½ÓÔÚpython¹ÙÍøÏÂÔØpyhon3.8µÄexeÎÄ¼ş£¬°²×°¼´¿É
-·½·¨¶ş£º
-Èç¹ûÓĞananconda£¬¿ÉÒÔÊ¹ÓÃÃüÁî"conda create -n env_py python=3.8"´´½¨3.8µÄĞéÄâ»·¾³
-È»ºó¼¤»îĞéÄâ»·¾³¡°conda activate env_py¡±,È»ºóÔÙ½øĞĞÒÀÀµ¿âµÄ°²×°
+è½¯ä»¶å¼€å‘ç¯å¢ƒ:python3.8 + pycharm
+ç¯å¢ƒé…ç½®æ­¥éª¤ï¼š
+ã€ç¬¬ä¸€æ­¥ï¼šå®‰è£…python3.8ã€‘
+æ–¹æ³•ä¸€ï¼šç›´æ¥åœ¨pythonå®˜ç½‘ä¸‹è½½pyhon3.8çš„exeæ–‡ä»¶ï¼Œå®‰è£…å³å¯
+æ–¹æ³•äºŒï¼š
+å¦‚æœæœ‰anancondaï¼Œå¯ä»¥ä½¿ç”¨å‘½ä»¤"conda create -n env_py python=3.8"åˆ›å»º3.8çš„è™šæ‹Ÿç¯å¢ƒ
+ç„¶åæ¿€æ´»è™šæ‹Ÿç¯å¢ƒâ€œconda activate env_pyâ€,ç„¶åå†è¿›è¡Œä¾èµ–åº“çš„å®‰è£…
 
-¡¾µÚ¶ş²½£º°²×°Èí¼şËùĞèµÄÒÀÀµ¿â¡¿
-ÏÈ°²×°requirements.txtÖĞµÄµÚÈı·½¿â£¬È»ºó°²×°libsÄ¿Â¼ÏÂµÄÁ½¸ö¿â
-°´ÕÕË³ĞòÔËĞĞÏÂÃæ3ÌõÃüÁî£º£¨ÃüÁîĞĞĞèÏÈ½øÈëFaceRecongnition£©
+ã€ç¬¬äºŒæ­¥ï¼šå®‰è£…è½¯ä»¶æ‰€éœ€çš„ä¾èµ–åº“ã€‘
+å…ˆå®‰è£…requirements.txtä¸­çš„ç¬¬ä¸‰æ–¹åº“ï¼Œç„¶åå®‰è£…libsç›®å½•ä¸‹çš„ä¸¤ä¸ªåº“
+æŒ‰ç…§é¡ºåºè¿è¡Œä¸‹é¢3æ¡å‘½ä»¤ï¼šï¼ˆå‘½ä»¤è¡Œéœ€å…ˆè¿›å…¥FaceRecongnitionï¼‰
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install libs/dlib-19.19.0-cp38-cp38-win_amd64.whl
 pip install libs/face_recognition-1.3.0-py2.py3-none-any.whl
 
-
-
-
-
-
+Software development environment: Python 3.8+PyCharm
+Environment configuration steps:
+[Step 1: Install Python 3.8]
+Method 1: Download the exe file for Python 3.8 directly from the Python official website and install it
+Method 2:
+If there is ananconda, you can use the command "conda create - n env_py Python=3.8" to create a 3.8 virtual environment
+Then activate the virtual environment "conda activate env_py" and proceed with the installation of dependent libraries
+[Step 2: Install the required dependency libraries for the software]
+First, install the third-party libraries in requirements. txt, and then install the two libraries in the libs directory
+Run the following three commands in order: (The command line needs to first enter FaceReconstion)
+Pip install - r requirements. txt - i https://pypi.tuna.tsinghua.edu.cn/simple
+Pip install libs/dlib-19.19.0-cp38-cp38-win-amd64.whl
+Pip install libs/face recognition 1.3.0 py2 py3 none any whl
